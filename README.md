@@ -1,4 +1,4 @@
-Trigger Bot Magnet - FreeFire
+#Trigger Bot Magnet - FreeFire
 Versão: 1.69.X
 - Atualizado
 
