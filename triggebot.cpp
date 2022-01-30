@@ -36,7 +36,7 @@ static void *Player_GetActiveWeapon(void *LocalPlayer)
 }
 
 // Namespace : COW
-// classe    : classe : internal class GameFacade
+// classe    : internal class GameFacade
 // Address   : Player CurrentLocalPlayer() { } // RVA: 0x1515958
 void *GameFacade_CurrentLocalPlayer()
 {
@@ -45,7 +45,7 @@ void *GameFacade_CurrentLocalPlayer()
 }
 
 // Namespace : COW
-// classe    : classe : internal class GameFacade
+// classe    : internal class GameFacade
 // Address   : CurrentMatch() { } // RVA: 0x1515568
 void *GameFacade_CurrentMatch()
 {
@@ -98,7 +98,7 @@ void hook_TriggerBot(void *_this, int32_t pFireStatus, int32_t pFireMode)
 
 // Onde identificar o local da address. Caso o jogo atualize para uma nova versão :)
 // Namespace : COW.GamePlay
-// classe    : classe : internal abstract class AKOPKPIDGEJ
+// classe    : internal abstract class AKOPKPIDGEJ
 // Address   : public void KBNOKPOCLED(AKOPKPIDGEJ.OOCNCAKCHNO NPMEDEOKBID, AKOPKPIDGEJ.HHMOMGDFCCJ OCANOIDGCHL = 0) { } // RVA: 0xDB1388
 
 //Hookando a função
