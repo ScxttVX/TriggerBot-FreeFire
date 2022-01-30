@@ -1,6 +1,5 @@
 # Trigger Bot Magnet - FreeFire
-Versão: 1.69.X
-- Atualizado
+Funcional na Versão: 1.69.X
 - Adicione um getClosestEnemy
 - Adicione um Visible Check ( Checar Alvos Visiveis )
 
