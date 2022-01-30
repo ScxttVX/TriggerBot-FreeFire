@@ -26,15 +26,6 @@ public:
     };
 };
 
-// Namespace : COW
-// classe    : classe : internal class GameFacade
-// Address   : CurrentMatch() { } // RVA: 0x1515568
-void *GameFacade_CurrentMatch()
-{
-    void *(*_CurrentMatch)() = (void*(*)())getRealOffset(0x1515568);
-    return _CurrentMatch();
-}
-
 // Namespace : COW.GamePlay
 // classe    : internal class Player : AttackableEntity
 // Address   :  GetActiveWeapon() { } // RVA: 0xB49EE4
@@ -51,6 +42,15 @@ void *GameFacade_CurrentLocalPlayer()
 {
     void *(*_CurrentLocalPlayer)() = (void*(*)())getRealOffset(0x1515958);
     return _CurrentLocalPlayer();
+}
+
+// Namespace : COW
+// classe    : classe : internal class GameFacade
+// Address   : CurrentMatch() { } // RVA: 0x1515568
+void *GameFacade_CurrentMatch()
+{
+    void *(*_CurrentMatch)() = (void*(*)())getRealOffset(0x1515568);
+    return _CurrentMatch();
 }
 
 void (*orig_TriggerBot)(void *_this, int32_t pFireStatus, int32_t pFireMode);
